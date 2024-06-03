@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    background-color: #9EB984;
+    width: 100%;
+    height: 495px;
+}
+
+
+section h2{
+    font-size: 36px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+}
+
+section h3{
+    font-size: 24px;
+    color: white;
+    margin-left: 75px;
+    
+}
+
+section ul li{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    margin: 50px;
+    margin-left: 80px;
+}
+
+.map h2{
+    color: #9EB984;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+iframe{
+    width: 100%;
+    height: 714px;
+}

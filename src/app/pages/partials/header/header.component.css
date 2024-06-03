@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    top: 0;
+    height: 49px;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #9EB984;
+    /* padding: 30px 14%; */
+    transition: all .50s ease;
+}
+
+
+header{
+    width: 100%;
+    height: 123px;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 30px 14%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all .50s ease;
+}
+
+
+header a{
+    font-size: 24px;
+    color: #9EB984;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+header a span{
+    font-size: 24px;
+    margin-left: 65px;
+}
+
+
+.navlist{
+    display: flex;
+}
+
+.navlist li a{
+    display: block;
+    color: black;
+    padding: 20px 25px;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0 30px;
+    transition: all .50s ease;
+    text-decoration: none;
+}
+
+.navlist li a:hover{
+    color: #9EB984;
+}
+
+
+.navlist li{
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.button button{
+    width: 103px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color: white;
+    border: 3px solid #9EB984;
+    color: black;
+    cursor: pointer;
+}
+
+.button button a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.button button:hover{
+    background: #9EB984;
+    color: white;
+}
+
+.button button a:hover{
+    color: white;
+}
+
+
+.menu-btn{
+    background-color: white;
+    color: #9EB984;
+    border: 3px solid #9EB984;
+    cursor: pointer;
+    font-size: 25px;
+    display: none;
+}

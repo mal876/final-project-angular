@@ -1,0 +1,49 @@
+table thead th{
+    margin: auto;
+    border: 2px solid black;
+    width: 200px;
+}
+
+td{
+    border: 2px solid black;
+    padding: 1%;
+    text-align: center;
+    
+}
+
+#view{
+    color: green;
+    font-weight: 800;
+    border: 3px solid green;
+}
+
+#delete{
+    color: red;
+    font-weight: 800;
+    border: 3px solid red;
+}
+
+#update{
+    color: blue;
+    font-weight: 800;
+    border: 3px solid blue;
+}
+
+
+button{
+    width: 120px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color: #9EB984;
+    border: 3px solid #9EB984;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 900px;
+}
+
+button a{
+    color: white;
+}

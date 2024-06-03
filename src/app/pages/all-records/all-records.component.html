@@ -1,0 +1,40 @@
+<br><br><br>
+
+<table>
+    <thead>
+        <th>Patient I.D.</th>
+        <th>Patient Name</th>
+        <th>Sex</th>
+        <th>Attending Physician</th>
+        <th>Last Visit</th>
+        <th>Diagnosis</th>
+        <th>Medicine</th>
+        <th>Treatment Plan</th>
+        <th>Next Appointment</th>
+        <th>Actiion</th>
+    </thead>
+    <tr *ngFor="let record of records">
+        <td> {{record['id']}} </td>
+        <td> {{record['patient_name']}} </td>
+        <td> {{record['patient_sex']}} </td>
+        <td> {{record['attending_physician']}} </td>
+        <td> {{record['last_visit'] | date}} </td>
+        <td> {{record['diagnosis']}} </td>
+        <td> {{record['medicine']}} </td>
+        <td> {{record['treatment_plan']}} </td>
+        <td> {{record['next_visit'] | date}} </td>
+        <td><a routerLink="/view/{{record['id']}}" id="view">View</a>  <br><br>
+            <a routerLink="/update/{{record['id']}}" id="update">Update</a>  <br><br>
+            <a routerLink="/delete/{{record['id']}}" id="delete">Delete</a> </td>
+    </tr>
+</table>
+
+<br><br><br>
+
+<button> <a routerLink="/add" >Add new</a> </button>
+
+<br><br>
+
+<button><a routerLink="/profile">Back</a></button>
+
+<br><br><br><br><br><br>

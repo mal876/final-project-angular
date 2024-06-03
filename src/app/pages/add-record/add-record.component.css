@@ -1,0 +1,59 @@
+
+
+.box{
+    margin-top: 55px;
+    padding: 10px 1%;
+    width: 658px;
+    height: 1069px;
+    border: 3px solid black;
+    border-radius: 25px;
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+    margin-bottom: 55px;
+}
+
+
+
+
+.box h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.box input{
+    width: 367px;
+    height: 59px;
+    border: 2px solid #9EB984;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: 15px;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.box p{
+    font-size: 20px;
+    margin-left: 60px;
+    color: black;
+    
+}
+
+button{
+    margin: auto;
+    width: 103px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    background-color: white;
+    border: 3px solid #9EB984;
+    color: black;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
